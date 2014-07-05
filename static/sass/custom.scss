@@ -1,0 +1,148 @@
+$primary-color: #EF4836;
+$secondary-color: #96281B;
+
+html, body {
+    /* background-color: #f1f2f7; */
+    /* background-color: #fafafa; */
+    background-color: #fff;
+    min-height: 100%;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+
+header {
+    width: 100%;
+    /* height: 360px; */
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: $primary-color;
+    .container {
+        height: 100%;
+    }
+
+    .header-inner {
+        @media (min-width: 1200px) {
+            position: relative;
+            top: 70px;
+        }
+
+        height: 100%;
+        .text {
+            /* position: relative; */
+            /* top: 20px; */
+        }
+
+        .avatar {
+            background-color: #f1f2f7;
+            border: 4px solid #f1f2f7;
+            box-shadow: 0 8px 6px -6px #aaa;
+            /* border-radius: 2% / 30%; */
+            margin: 20px;
+            text-align: center;
+            img {
+                width: 200px;
+                height: auto;
+            }
+        }
+
+    }
+
+
+    h1, h2, h3, h4, h5 {
+        color: #f1f2f7;
+    }
+
+    p {
+        color: #f1f2f7;
+    }
+}
+
+footer {
+    height: 10px;
+    width: 100%;
+    background-color: $primary-color;
+    margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Bree Serif";
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #444;
+}
+
+pre {
+    margin: 30px auto;
+}
+
+a {
+    color: $primary-color;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.content {
+    max-width: 650px;
+    color: #333;
+    ul {
+        margin: 15px auto;
+        li {
+            /* list-style: disc outside none; */
+            font-family: "Bree Serif";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 40px;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    p {
+        margin: 10px auto 30px auto;
+    }
+}
+
+.social {
+    margin: 20px;
+    /* font-family: "Bree Serif"; */
+    font-size: 0.8em;
+
+    i {
+        width: 67px;
+        text-align: center;
+        background-color: $primary-color;
+        padding: 15px 10px;
+        color: #FAFAFA;
+        font-size: 2em;
+        margin: 5px auto;
+        transition: all 0.3s ease;
+        &:hover {
+            background-color: $secondary-color;
+            /* color: #333; */
+        }
+    }
+}

@@ -1,0 +1,161 @@
+/* line 4, ../sass/custom.scss */
+html, body {
+  /* background-color: #f1f2f7; */
+  /* background-color: #fafafa; */
+  background-color: #fff;
+  min-height: 100%;
+  height: 100%;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 30px;
+  font-size: 19px;
+}
+
+/* line 16, ../sass/custom.scss */
+header {
+  width: 100%;
+  /* height: 360px; */
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #ef4836;
+}
+/* line 22, ../sass/custom.scss */
+header .container {
+  height: 100%;
+}
+/* line 26, ../sass/custom.scss */
+header .header-inner {
+  height: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 26, ../sass/custom.scss */
+  header .header-inner {
+    position: relative;
+    top: 70px;
+  }
+}
+/* line 33, ../sass/custom.scss */
+header .header-inner .text {
+  /* position: relative; */
+  /* top: 20px; */
+}
+/* line 38, ../sass/custom.scss */
+header .header-inner .avatar {
+  background-color: #f1f2f7;
+  border: 4px solid #f1f2f7;
+  box-shadow: 0 8px 6px -6px #aaa;
+  /* border-radius: 2% / 30%; */
+  margin: 20px;
+  text-align: center;
+}
+/* line 45, ../sass/custom.scss */
+header .header-inner .avatar img {
+  width: 200px;
+  height: auto;
+}
+/* line 54, ../sass/custom.scss */
+header h1, header h2, header h3, header h4, header h5 {
+  color: #f1f2f7;
+}
+/* line 58, ../sass/custom.scss */
+header p {
+  color: #f1f2f7;
+}
+
+/* line 63, ../sass/custom.scss */
+footer {
+  height: 10px;
+  width: 100%;
+  background-color: #ef4836;
+  margin-top: 40px;
+}
+
+/* line 70, ../sass/custom.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Bree Serif";
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 77, ../sass/custom.scss */
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+/* line 82, ../sass/custom.scss */
+h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* line 87, ../sass/custom.scss */
+p {
+  color: #444;
+}
+
+/* line 91, ../sass/custom.scss */
+pre {
+  margin: 30px auto;
+}
+
+/* line 95, ../sass/custom.scss */
+a {
+  color: #ef4836;
+  transition: all 0.3s ease;
+}
+/* line 99, ../sass/custom.scss */
+a:hover {
+  color: #96281b;
+}
+
+/* line 104, ../sass/custom.scss */
+.content {
+  max-width: 650px;
+  color: #333;
+}
+/* line 107, ../sass/custom.scss */
+.content ul {
+  margin: 15px auto;
+}
+/* line 109, ../sass/custom.scss */
+.content ul li {
+  /* list-style: disc outside none; */
+  font-family: "Bree Serif";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 40px;
+}
+/* line 119, ../sass/custom.scss */
+.content img {
+  display: block;
+  margin: 20px auto;
+}
+/* line 124, ../sass/custom.scss */
+.content p {
+  margin: 10px auto 30px auto;
+}
+
+/* line 129, ../sass/custom.scss */
+.social {
+  margin: 20px;
+  /* font-family: "Bree Serif"; */
+  font-size: 0.8em;
+}
+/* line 134, ../sass/custom.scss */
+.social i {
+  width: 67px;
+  text-align: center;
+  background-color: #ef4836;
+  padding: 15px 10px;
+  color: #FAFAFA;
+  font-size: 2em;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
+/* line 143, ../sass/custom.scss */
+.social i:hover {
+  background-color: #96281b;
+  /* color: #333; */
+}

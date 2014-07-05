@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block headtag %}
+  {{ super() }}
+  <title> Muhammet Can :: {{post.title}} </title>
+{% endblock %}
+
+{% block body %}
+  {% block header %}
+    {{ super() }}
+  {% endblock header %}
+ <div class="container" style="padding-top: 40px;">
+   <div class="col-xs-3 hidden-xs hidden-sm hidden-md">
+     {% include "social.html" %}
+   </div>
+
+   <div class="col-xs-12 col-md-9">
+     <div class="content">
+       <h1>{{post.title}}</h1>
+       {{post.content | safe}}
+     </div>
+   </div>
+ </div>
+ {% block footer %}
+   {{ super() }}
+ {% endblock footer%}
+
+{% block jsblock %}
+  {{ super() }}
+{% endblock %} <!-- end of jsblock -->
+{% endblock %} <!-- end of body block -->
