@@ -44,7 +44,7 @@ def index():
     return render_template('index.html', posts=ps)
 
 
-@app.route('/blog/<string:post_slug>/')
+@app.route('/<string:post_slug>/')
 def post(post_slug):
     p = Post.objects(slug=post_slug).first()
     return render_template('post.html', post=p)
