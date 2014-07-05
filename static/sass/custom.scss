@@ -80,7 +80,14 @@ h1 {
 }
 
 h2 {
+    font-size: 35px;
     margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -101,18 +108,26 @@ a {
     }
 }
 
+
 .content {
     max-width: 650px;
     color: #333;
+
     ul {
         margin: 15px auto;
-        li {
-            /* list-style: disc outside none; */
+        ol, li {
             font-family: "Bree Serif";
             font-weight: 400;
             font-style: normal;
             font-size: 18px;
             line-height: 40px;
+            padding: 0;
+        }
+
+        li {
+            margin-left: 40px;
+            margin-right: 40px;
+            list-style: disc outside none;
         }
     }
 

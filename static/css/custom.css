@@ -85,65 +85,79 @@ h1 {
 
 /* line 82, ../sass/custom.scss */
 h2 {
+  font-size: 35px;
   margin-top: 50px;
   margin-bottom: 10px;
 }
 
-/* line 87, ../sass/custom.scss */
+/* line 88, ../sass/custom.scss */
+h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 94, ../sass/custom.scss */
 p {
   color: #444;
 }
 
-/* line 91, ../sass/custom.scss */
+/* line 98, ../sass/custom.scss */
 pre {
   margin: 30px auto;
 }
 
-/* line 95, ../sass/custom.scss */
+/* line 102, ../sass/custom.scss */
 a {
   color: #ef4836;
   transition: all 0.3s ease;
 }
-/* line 99, ../sass/custom.scss */
+/* line 106, ../sass/custom.scss */
 a:hover {
   color: #96281b;
 }
 
-/* line 104, ../sass/custom.scss */
+/* line 112, ../sass/custom.scss */
 .content {
   max-width: 650px;
   color: #333;
 }
-/* line 107, ../sass/custom.scss */
+/* line 116, ../sass/custom.scss */
 .content ul {
   margin: 15px auto;
 }
-/* line 109, ../sass/custom.scss */
-.content ul li {
-  /* list-style: disc outside none; */
+/* line 118, ../sass/custom.scss */
+.content ul ol, .content ul li {
   font-family: "Bree Serif";
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 40px;
+  padding: 0;
 }
-/* line 119, ../sass/custom.scss */
+/* line 127, ../sass/custom.scss */
+.content ul li {
+  margin-left: 40px;
+  margin-right: 40px;
+  list-style: disc outside none;
+}
+/* line 134, ../sass/custom.scss */
 .content img {
   display: block;
   margin: 20px auto;
 }
-/* line 124, ../sass/custom.scss */
+/* line 139, ../sass/custom.scss */
 .content p {
   margin: 10px auto 30px auto;
 }
 
-/* line 129, ../sass/custom.scss */
+/* line 144, ../sass/custom.scss */
 .social {
   margin: 20px;
   /* font-family: "Bree Serif"; */
   font-size: 0.8em;
 }
-/* line 134, ../sass/custom.scss */
+/* line 149, ../sass/custom.scss */
 .social i {
   width: 67px;
   text-align: center;
@@ -154,7 +168,7 @@ a:hover {
   margin: 5px auto;
   transition: all 0.3s ease;
 }
-/* line 143, ../sass/custom.scss */
+/* line 158, ../sass/custom.scss */
 .social i:hover {
   background-color: #96281b;
   /* color: #333; */
