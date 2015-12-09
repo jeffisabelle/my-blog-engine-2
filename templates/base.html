@@ -1,92 +1,25 @@
 <!doctype html>
-
 <html>
-  <head>
-    {% block headtag %}
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/bootstrap-reset.css') }}">
-
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/bootstrap-reset.css') }}">
-
-
-    <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/style.css') }}">
-
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/style-responsive.css') }}">
-
-    <!-- custom.css generated with sass -->
-    <link rel="stylesheet" type="text/css"
-          href="{{ url_for('static', filename='css/custom.css') }}">
-
-    <!-- google fonts -->
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700|Bree+Serif&subset=latin,latin-ext"
-          rel="stylesheet" type="text/css">
-
-    <!-- google webmaster verification -->
-    <meta name="google-site-verification"
-          content="JTyAwyNnR9tEV0RJuL3IwjoLG89wEQrh1vTM1sqGoGQ" />
-    {% endblock %}
-  </head>
-
-  {% block body %}
-    {% block header %}
-    <header>
-      <div class="container">
-        <div class="header-inner">
-          <div class="col-xs-3 hidden-xs hidden-sm hidden-md">
-          <div class="avatar">
-            <img src="{{url_for('static', filename='img/muhammet-small.jpg')}}" class="" alt="" />
-          </div>
-          </div>
-          <div class="col-xs-12 col-md-9">
-            <div class="text">
-              <h1>Muhammet Can</h1>
-              <p>yet another hacker and entrepreneur from turkey. <br />
-                i love #web, #linux, #python, #emacs and #mozilla.</p>
-            </div>
-          </div>
-        </div> <!-- end of header-inner -->
-      </div>   <!-- end of container -->
-    </header>
-    {% endblock header %}
-
-
-    {% block footer %}
-    <footer></footer>
-    {% endblock footer%}
-  {% block jsblock %}
-  <!-- js placed at the end of the document so the pages load faster -->
-  <script src="{{url_for('static', filename='js/jquery.js') }}"></script>
-  <script src="{{url_for('static', filename='js/jquery-1.8.3.min.js') }}"></script>
-  <script src="{{url_for('static', filename='js/bootstrap.min.js') }}"></script>
-
-  <script src="{{url_for('static', filename='js/respond.min.js') }}"></script>
-
-  <!--common script for all pages-->
-  <script src="{{url_for('static', filename='js/common-scripts.js') }}"></script>
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-35386653-1']);
-    _gaq.push(['_setDomainName', 'muhammetcan.net']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-  {% endblock %} <!-- end of js -->
-  {% endblock %} <!-- end of body -->
+  <head>{% block headtag %}
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- higlight.js styles -->
+    <link href="/static/css/highlight/solarized-dark.css" rel="stylesheet"/>
+    <!-- main -->
+    <link href="/static/css/main.css" rel="stylesheet"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  {% endblock %}</head>{% block body %}{% endblock %}
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+  <!-- bootstrap.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+  <!-- main.js -->
+  <script src="/static/js/main.js"></script>
 </html>

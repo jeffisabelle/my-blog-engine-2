@@ -1,0 +1,159 @@
+/* layout sizes */
+/* colors */
+/* fonts */
+#right-container {
+  font-size: 16px;
+  line-height: 25.875px;
+}
+#right-container article {
+  padding: 30px 40px;
+}
+#right-container p {
+  margin: 20px 0px 25px 0px;
+  font-family: Actor;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+#right-container h2 {
+  font-size: 28px;
+  font-family: "Advent Pro";
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+body {
+  font-family: Actor;
+  color: #333;
+}
+body h1, body h2, body h3, body h4 {
+  font-family: "Advent Pro";
+  font-weight: bold;
+}
+body a {
+  color: #002B36;
+  outline: none;
+  text-decoration: none;
+}
+body pre code {
+  padding: 30px !important;
+}
+body del {
+  display: none;
+}
+
+#left-container {
+  width: 50%;
+  float: left;
+  background: #002B36;
+  height: calc(100% - 200px);
+  padding: 30px;
+  position: fixed;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 1200px) {
+  #left-container {
+    width: 100%;
+    height: 100px;
+    background: #002B36;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+#left-container pre code.hljs {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 1200px) {
+  #left-container pre code.hljs {
+    display: none;
+  }
+}
+#left-container pre code.hljs .hovered {
+  background-color: #fafafa;
+  color: #333;
+  padding: 3px 0;
+}
+
+#right-container {
+  width: 50%;
+  float: right;
+  height: 100%;
+  padding: 30px;
+}
+@media screen and (max-width: 1200px) {
+  #right-container {
+    width: 100%;
+    padding: 10px;
+    margin-top: 300px;
+  }
+}
+
+#profile {
+  width: 50%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background: #00232c;
+  height: 200px;
+}
+@media screen and (max-width: 1200px) {
+  #profile {
+    width: 100%;
+    height: 200px;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 100px;
+    position: absolute;
+  }
+}
+#profile .avatar {
+  display: block;
+  position: relative;
+}
+#profile .avatar img {
+  border: 1px solid #00171c;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 150px/2);
+  top: -125px;
+  width: 150px;
+  height: auto;
+  /* opacity: 0.90; */
+}
+#profile a {
+  display: inline-block;
+  outline: none;
+  color: #E7F2FA;
+}
+#profile .nav {
+  font-family: "Advent Pro";
+  font-size: 1.5em;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  color: #839493;
+}
+#profile .nav ul {
+  padding: 0;
+  margin: 0;
+}
+#profile .nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px 30px;
+  font-variant: small-caps;
+}
+@media screen and (max-width: 1200px) {
+  #profile .nav ul li {
+    padding: 10px 5px;
+  }
+}
+#profile .social {
+  text-align: center;
+  color: #839493;
+  font-size: 2em;
+}
