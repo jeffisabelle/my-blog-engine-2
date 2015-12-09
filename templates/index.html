@@ -7,14 +7,20 @@
     </div>
     {% include "includes/profile.html" %}
     <div id="right-container">
-      {% for post in posts %}
-        <article class="animated fadeInRight">
-          <a href="/{{post.slug}}">
-            <h2 class="l">{{post.title}}</h2>
-          </a>
-          <p class="l">{{post.excerpt | safe }}</p>
-        </article>
-      {% endfor %}
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            {% for post in posts %}
+              <article class="animated fadeInRight">
+                <a href="/{{post.slug}}">
+                  <h2 class="l">{{post.title}}</h2>
+                </a>
+                <p class="l">{{post.excerpt | safe }}</p>
+              </article>
+            {% endfor %}
+          </div> <!-- /col-xs-12 -->
+        </div> <!-- /row -->
+      </div><!-- /container -->
     </div> <!-- /right-container -->
   </body>
 {% endblock %}
