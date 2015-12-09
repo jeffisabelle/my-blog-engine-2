@@ -3110,6 +3110,7 @@ input[type="button"].btn-block {
 }
 body {
   font-family: Actor;
+  font-size: 15px;
   color: #333;
 }
 body h1, body h2, body h3, body h4 {
@@ -3181,7 +3182,7 @@ body del {
   }
 }
 #right-container article {
-  padding: 30px 40px;
+  padding: 20px 40px;
 }
 #right-container p {
   margin-bottom: 40px;

@@ -3,6 +3,7 @@
 
 body {
     font-family: $default-font;
+    font-size: 15px;
     color: #333;
 
     h1, h2, h3, h4 {
@@ -73,7 +74,7 @@ body {
     overflow-x: hidden;
 
     article {
-        padding: 30px 40px;
+        padding: 20px 40px;
     }
 
     p {
