@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'typecast';
 @import 'bootstrap/bootstrap';
 
 body {
@@ -8,7 +7,6 @@ body {
 
     h1, h2, h3, h4 {
         font-family: $title-font;
-        font-weight: bold;
     }
 
     a {
@@ -73,6 +71,15 @@ body {
     height: 100%;
     padding: 30px;
     overflow-x: hidden;
+
+    article {
+        padding: 30px 40px;
+    }
+
+    p {
+        margin-bottom: 40px;
+    }
+
 }
 
 

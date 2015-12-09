@@ -10,32 +10,3 @@ $link-color: #839493;
 /* fonts */
 $title-font: "Advent Pro";
 $default-font: Actor;
-
-/* p font-sizes */
-$p-font-sizes: (
-  null  : 15px,
-  480px : 16px,
-  640px : 17px,
-  1024px: 18px
-);
-
-$h2-font-sizes: (
-    null  : 2em,
-    480px : 2em,
-    640px : 2em,
-    1024px: 2em
-);
-
-/* mixin */
-@mixin font-size($fs-map) {
-  @each $fs-breakpoint, $fs-font-size in $fs-map {
-    @if $fs-breakpoint == null {
-      font-size: $fs-font-size;
-    }
-    @else {
-      @media screen and (min-width: $fs-breakpoint) {
-        font-size: $fs-font-size;
-      }
-    }
-  }
-}

@@ -1,25 +1,6 @@
 /* layout sizes */
 /* colors */
 /* fonts */
-/* p font-sizes */
-/* mixin */
-#right-container article {
-  padding: 30px 40px;
-}
-#right-container p {
-  margin: 20px 0px 25px 0px;
-  font-family: Actor;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-}
-#right-container h2 {
-  font-family: "Advent Pro";
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-}
-
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -3133,7 +3114,6 @@ body {
 }
 body h1, body h2, body h3, body h4 {
   font-family: "Advent Pro";
-  font-weight: bold;
 }
 body a {
   color: #002B36;
@@ -3199,6 +3179,12 @@ body del {
     padding: 10px;
     margin-top: 300px;
   }
+}
+#right-container article {
+  padding: 30px 40px;
+}
+#right-container p {
+  margin-bottom: 40px;
 }
 
 #profile {
