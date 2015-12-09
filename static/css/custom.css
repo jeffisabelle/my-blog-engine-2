@@ -1,4 +1,3 @@
-/* line 4, ../sass/custom.scss */
 html, body {
   /* background-color: #f1f2f7; */
   /* background-color: #fafafa; */
@@ -10,35 +9,29 @@ html, body {
   font-size: 19px;
 }
 
-/* line 16, ../sass/custom.scss */
 header {
   width: 100%;
   /* height: 360px; */
   padding-top: 100px;
   padding-bottom: 20px;
-  background-color: #ef4836;
+  background-color: #EF4836;
 }
-/* line 22, ../sass/custom.scss */
 header .container {
   height: 100%;
 }
-/* line 26, ../sass/custom.scss */
 header .header-inner {
   height: 100%;
 }
 @media (min-width: 1200px) {
-  /* line 26, ../sass/custom.scss */
   header .header-inner {
     position: relative;
     top: 70px;
   }
 }
-/* line 33, ../sass/custom.scss */
 header .header-inner .text {
   /* position: relative; */
   /* top: 20px; */
 }
-/* line 38, ../sass/custom.scss */
 header .header-inner .avatar {
   background-color: #f1f2f7;
   border: 4px solid #f1f2f7;
@@ -47,29 +40,24 @@ header .header-inner .avatar {
   margin: 20px;
   text-align: center;
 }
-/* line 45, ../sass/custom.scss */
 header .header-inner .avatar img {
   width: 200px;
   height: auto;
 }
-/* line 54, ../sass/custom.scss */
 header h1, header h2, header h3, header h4, header h5 {
   color: #f1f2f7;
 }
-/* line 58, ../sass/custom.scss */
 header p {
   color: #f1f2f7;
 }
 
-/* line 63, ../sass/custom.scss */
 footer {
   height: 10px;
   width: 100%;
-  background-color: #ef4836;
+  background-color: #EF4836;
   margin-top: 40px;
 }
 
-/* line 70, ../sass/custom.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Bree Serif";
   color: #555;
@@ -77,54 +65,44 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0;
 }
 
-/* line 77, ../sass/custom.scss */
 h1 {
   font-size: 40px;
   line-height: 50px;
   margin-top: 20px;
 }
 
-/* line 83, ../sass/custom.scss */
 h2 {
   font-size: 35px;
   margin-top: 50px;
 }
 
-/* line 88, ../sass/custom.scss */
 h3 {
   font-size: 25px;
 }
 
-/* line 92, ../sass/custom.scss */
 p {
   color: #444;
 }
 
-/* line 96, ../sass/custom.scss */
 pre {
   margin: 30px auto;
 }
 
-/* line 100, ../sass/custom.scss */
 a {
-  color: #ef4836;
+  color: #EF4836;
   transition: all 0.3s ease;
 }
-/* line 104, ../sass/custom.scss */
 a:hover {
-  color: #96281b;
+  color: #96281B;
 }
 
-/* line 110, ../sass/custom.scss */
 .content {
   max-width: 650px;
   color: #333;
 }
-/* line 114, ../sass/custom.scss */
 .content ul {
   margin: 15px auto;
 }
-/* line 116, ../sass/custom.scss */
 .content ul ol, .content ul li {
   font-family: "Bree Serif";
   font-weight: 400;
@@ -133,41 +111,35 @@ a:hover {
   line-height: 40px;
   padding: 0;
 }
-/* line 125, ../sass/custom.scss */
 .content ul li {
   margin-left: 40px;
   margin-right: 40px;
   list-style: disc outside none;
 }
-/* line 132, ../sass/custom.scss */
 .content img {
   display: block;
   margin: 20px auto;
 }
-/* line 137, ../sass/custom.scss */
 .content p {
   margin: 20px auto 20px auto;
 }
 
-/* line 142, ../sass/custom.scss */
 .social {
   margin: 20px;
   /* font-family: "Bree Serif"; */
   font-size: 0.8em;
 }
-/* line 147, ../sass/custom.scss */
 .social i {
   width: 67px;
   text-align: center;
-  background-color: #ef4836;
+  background-color: #EF4836;
   padding: 15px 10px;
   color: #FAFAFA;
   font-size: 2em;
   margin: 5px auto;
   transition: all 0.3s ease;
 }
-/* line 156, ../sass/custom.scss */
 .social i:hover {
-  background-color: #96281b;
+  background-color: #96281B;
   /* color: #333; */
 }
