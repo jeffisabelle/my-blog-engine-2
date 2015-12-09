@@ -1,10 +1,8 @@
 /* layout sizes */
 /* colors */
 /* fonts */
-#right-container {
-  font-size: 16px;
-  line-height: 25.875px;
-}
+/* p font-sizes */
+/* mixin */
 #right-container article {
   padding: 30px 40px;
 }
@@ -16,7 +14,6 @@
   text-align: left;
 }
 #right-container h2 {
-  font-size: 28px;
   font-family: "Advent Pro";
   font-weight: 400;
   font-style: normal;
@@ -26,6 +23,7 @@
 body {
   font-family: Actor;
   color: #333;
+  font-size: 15px;
 }
 body h1, body h2, body h3, body h4 {
   font-family: "Advent Pro";
@@ -41,6 +39,21 @@ body pre code {
 }
 body del {
   display: none;
+}
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 #left-container {

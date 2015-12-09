@@ -23,6 +23,8 @@ body {
     del {
         display: none;
     }
+
+    @include font-size($p-font-sizes);
 }
 
 
