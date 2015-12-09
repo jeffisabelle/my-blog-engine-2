@@ -3246,6 +3246,7 @@ body del {
   width: 100%;
   text-align: center;
   color: #839493;
+  font-size: 3em;
 }
 #profile .nav ul {
   padding: 0;
