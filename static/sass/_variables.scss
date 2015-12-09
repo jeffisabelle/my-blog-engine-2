@@ -19,6 +19,13 @@ $p-font-sizes: (
   1024px: 18px
 );
 
+$h2-font-sizes: (
+  null  : 30px,
+  480px : 25px,
+  640px : 25px,
+  1024px: 25px
+);
+
 /* mixin */
 @mixin font-size($fs-map) {
   @each $fs-breakpoint, $fs-font-size in $fs-map {

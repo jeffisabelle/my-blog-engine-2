@@ -10,6 +10,10 @@ body {
         font-weight: bold;
     }
 
+    h2 {
+        @include font-size($h2-font-sizes);
+    }
+
     a {
         color: #002B36;
         outline: none;
@@ -114,11 +118,11 @@ body {
 
     .nav {
         font-family: $title-font;
-        font-size: 1.5em;
         padding-top: 30px;
         width: 100%;
         text-align: center;
         color: $link-color;
+        @include font-size($h2-font-sizes);
 
         ul {
             padding: 0;

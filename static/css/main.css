@@ -29,6 +29,24 @@ body h1, body h2, body h3, body h4 {
   font-family: "Advent Pro";
   font-weight: bold;
 }
+body h2 {
+  font-size: 30px;
+}
+@media screen and (min-width: 480px) {
+  body h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 640px) {
+  body h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h2 {
+    font-size: 25px;
+  }
+}
 body a {
   color: #002B36;
   outline: none;
@@ -145,11 +163,26 @@ body del {
 }
 #profile .nav {
   font-family: "Advent Pro";
-  font-size: 1.5em;
   padding-top: 30px;
   width: 100%;
   text-align: center;
   color: #839493;
+  font-size: 30px;
+}
+@media screen and (min-width: 480px) {
+  #profile .nav {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 640px) {
+  #profile .nav {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #profile .nav {
+    font-size: 25px;
+  }
 }
 #profile .nav ul {
   padding: 0;
