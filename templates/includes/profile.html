@@ -1,36 +1,39 @@
   {% block profile %}
-    <div class="container">
-      <div class="row">
-        <div id="profile">
-          <div class="avatar">
-            <del>my awesome picture</del>
-            <img alt="" src="/static/img/thuglife.png"/>
-          </div>
-          <div class="nav">
-            <ul>
-              <a href="/">
-                <li>home</li>
+    <div id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="avatar">
+              <del>my awesome picture</del>
+              <img alt="" src="/static/img/thuglife.png"/>
+            </div>
+            <div class="nav">
+              <ul>
+                <a href="/">
+                  <li>home</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>projects</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>about</li>
+                </a>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
+                <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
               </a>
-              <a href="#"> <!-- implement later -->
-                <li>projects</li>
+              <a href="https://github.com/jeffisabelle" target="_blank">
+                <i class="fa fa-github-square l"><del>github</del></i>
               </a>
-              <a href="#"> <!-- implement later -->
-                <li>about</li>
+              <a href="https://twitter.com/jeffisabelle" target="_blank">
+                <i class="fa fa-twitter-square l"><del>twitter</del></i>
               </a>
-            </ul>
-          </div>
-          <div class="social">
-            <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
-              <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
-            </a>
-            <a href="https://github.com/jeffisabelle" target="_blank">
-              <i class="fa fa-github-square l"><del>github</del></i>
-            </a>
-            <a href="https://twitter.com/jeffisabelle" target="_blank">
-              <i class="fa fa-twitter-square l"><del>twitter</del></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+            </div>
+          </div> <!-- /profile -->
+        </div> <!-- /col-xs-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
   {% endblock %}
