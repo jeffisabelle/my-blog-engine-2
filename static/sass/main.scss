@@ -16,8 +16,15 @@ body {
         text-decoration: none;
     }
 
-    pre code {
-        padding: 30px !important;
+    pre {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: white;
+
+        code {
+            padding: 30px !important;
+        }
     }
 
     del {
@@ -74,6 +81,10 @@ body {
     overflow-x: hidden;
 
     article {
+        padding: 20px 40px;
+    }
+
+    #disqus_thread {
         padding: 20px 40px;
     }
 

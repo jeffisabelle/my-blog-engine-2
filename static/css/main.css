@@ -3121,6 +3121,12 @@ body a {
   outline: none;
   text-decoration: none;
 }
+body pre {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: white;
+}
 body pre code {
   padding: 30px !important;
 }
@@ -3184,6 +3190,9 @@ body del {
 #right-container article {
   padding: 20px 40px;
 }
+#right-container #disqus_thread {
+  padding: 20px 40px;
+}
 #right-container p {
   margin-bottom: 40px;
 }
@@ -3213,7 +3222,7 @@ body del {
   position: relative;
 }
 #profile .avatar img {
-  border: 1px solid #00171c;
+  border: 1px solid #00171d;
   border-radius: 100%;
   position: absolute;
   left: calc(50% - 150px/2);

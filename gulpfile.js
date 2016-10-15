@@ -2,8 +2,14 @@ var source = require("vinyl-source-stream");
 var gulp = require('gulp');
 var sass = require('gulp-ruby-sass');
 
+// Sources
+var src = {
+    sass: 'static/sass/',
+    scss: 'static/sass/**/*.scss',
+}
+
 gulp.task('sass', function() {
-    return sass('./static/sass/**/*.scss', { style: 'expanded' })
+    return sass(src.sass, { style: 'expanded' })
         .pipe(gulp.dest('./static/css/'));
 });
 
