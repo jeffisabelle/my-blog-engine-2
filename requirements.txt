@@ -1,5 +1,7 @@
 appnope==0.1.0
 BeautifulSoup==3.2.1
+beautifulsoup4==4.5.3
+bs4==0.0.1
 decorator==4.0.4
 ecdsa==0.13
 Fabric==1.10.2
@@ -21,6 +23,7 @@ pickleshare==0.5
 ptyprocess==0.5
 pycrypto==2.6.1
 pymongo==2.7.2
+requests==2.12.5
 simplegeneric==0.8.1
 traitlets==4.0.0
 Werkzeug==0.11.2
