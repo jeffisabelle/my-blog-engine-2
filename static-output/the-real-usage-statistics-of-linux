@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+  <!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It's my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  -->
+  <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- higlight.js styles -->
+    <link href="/static/css/highlight/solarized-dark.css" rel="stylesheet"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- main -->
+    <link href="/static/css/main.css" rel="stylesheet"/>
+  
+  <title>Muhammet Can :: The Real Usage Statistics of Linux</title>
+</head>
+  <body>
+    <div id="left-container">
+      <pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It&#39;s my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  --&gt;
+  &lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+    &lt;!-- higlight.js styles --&gt;
+    &lt;link href=&#34;/static/css/highlight/solarized-dark.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;!-- fonts --&gt;
+    &lt;link href=&#39;https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+    &lt;!-- font-awesome --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css&#34;&gt;
+    &lt;!-- animate.css --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css&#34;&gt;
+    &lt;!-- main --&gt;
+    &lt;link href=&#34;/static/css/main.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;title&gt;Muhammet Can :: The Real Usage Statistics of Linux&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&#34;left-container&#34;&gt;
+      &lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+      
+    &lt;div id=&#34;profile&#34;&gt;
+      &lt;div class=&#34;container-fluid&#34;&gt;
+        &lt;div class=&#34;row&#34;&gt;
+          &lt;div class=&#34;col-xs-12&#34;&gt;
+
+            &lt;div class=&#34;avatar&#34;&gt;
+              &lt;del&gt;my awesome picture&lt;/del&gt;
+              &lt;img alt=&#34;&#34; src=&#34;/static/img/thuglife.png&#34;/&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;nav&#34;&gt;
+              &lt;ul&gt;
+                &lt;a href=&#34;/&#34;&gt;
+                  &lt;li&gt;home&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;projects&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;about&lt;/li&gt;
+                &lt;/a&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;social&#34;&gt;
+              &lt;a href=&#34;https://tr.linkedin.com/in/muhammetcan&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-linkedin-square l&#34;&gt;&lt;del&gt;linkedin&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://github.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-github-square l&#34;&gt;&lt;del&gt;github&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://twitter.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-twitter-square l&#34;&gt;&lt;del&gt;twitter&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt; &lt;!-- /profile --&gt;
+        &lt;/div&gt; &lt;!-- /col-xs-12 --&gt;
+      &lt;/div&gt; &lt;!-- /row --&gt;
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  
+    &lt;div id=&#34;right-container&#34;&gt;
+      &lt;article class=&#34;animated fadeInRight&#34;&gt;
+        &lt;!-- dont put the source of actual blog here.
+        ugly markup makes it hard to follow. --&gt;
+      &lt;/article&gt;
+
+      &lt;div class=&#34;container&#34;&gt;
+        &lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the
+          &lt;a href=&#34;http://disqus.com/?ref_noscript&#34;&gt;
+            comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+
+        &lt;a href=&#34;http://disqus.com&#34; class=&#34;dsq-brlink&#34;&gt;comments
+          powered by &lt;span class=&#34;logo-disqus&#34;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; &lt;!-- /right-container --&gt;
+  &lt;/body&gt;
+
+  &lt;!-- jquery --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- highlight.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- bootstrap.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- main.js --&gt;
+  &lt;script src=&#34;/static/js/main.js&#34;&gt;&lt;/script&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+      
+    <div id="profile">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="avatar">
+              <del>my awesome picture</del>
+              <img alt="" src="/static/img/thuglife.png"/>
+            </div>
+            <div class="nav">
+              <ul>
+                <a href="/">
+                  <li>home</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>projects</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>about</li>
+                </a>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
+                <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
+              </a>
+              <a href="https://github.com/jeffisabelle" target="_blank">
+                <i class="fa fa-github-square l"><del>github</del></i>
+              </a>
+              <a href="https://twitter.com/jeffisabelle" target="_blank">
+                <i class="fa fa-twitter-square l"><del>twitter</del></i>
+              </a>
+            </div>
+          </div> <!-- /profile -->
+        </div> <!-- /col-xs-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  
+    <div id="right-container">
+      <article class="animated fadeInRight">
+        <h2 class="l">The Real Usage Statistics of Linux</h2>
+        <p>
+Back Story: Our
+  Instructor, <a href="https://twitter.com/mselcukkaraca">M. Selcuk
+  Karaca</a> force his students to write blog posts for lectures that he
+gave. (which is a good sign that the course will be very pragmatic)
+This is my first blog post for the course. 
+</p>
+
+<p>
+My first blog post will be about the OS Usage Statistics and Why Some
+OSes have success over the others that we talked about last lecture.
+(May 7 2013)
+</p>
+
+<p>
+At lecture we saw some graphics that shows the percentages of the
+operating system usages. Which is collected from
+<a href="http://www.w3counter.com/globalstats.php">w3counter</a>
+as our lecturer stated. This statistics shows that current Linux usage
+is around 2.28%
+</p>
+
+<h2> How these stats calculated? </h2>
+<p>
+When you fire-up your web-browser and connect to a web page, you are
+making a http request to that web server. That request contains some
+information about you & your computer. Namely, it contains the
+operating system you use and web browser you use and so on.
+</p>
+
+<p>
+W3 Counter and the other counters look at these information to figure
+out the market share of operating systems. So, If you are
+running a Microsoft OS to read this blog post, if W3Counter tracks my
+web page, it sees you as a Windows User and updates its database.
+</p>
+
+<h2>But what is actually happening? </h2>
+<p>
+You are using linux! You are using a service that is running on linux.
+My server is running a gnu/linux distribution and when you want to
+connect this web page, linux is the Operating System that is
+responding your request. 
+</p>
+
+<p>
+Even If I had a .NET application that is
+running on Windows Server, you would be still using linux because most
+of the routers of your ISP, and your modem at home probably powered by
+linux. Forget about my tiny blog, google, facebook, twitter and most
+of the pages you can think of powered by linux!
+</p>
+
+<p>
+However you still count as a Windows User. Because your desktop
+computer is running Windows and counters don't look at the bandwidth
+usage on the NET and just look at the requests that have been made.
+</p>
+
+<p>
+Linux Foundation's How Linux is Built video can let you understand the
+true power & usage statistics of linux if you have some minutes.
+</p>
+
+<iframe width="560" height="315"
+        src="http://www.youtube.com/embed/yVpbFMhOAwE" frameborder="0"
+        allowfullscreen></iframe>
+
+<h2> But, what is the problem with Desktops? </h2>
+<p>
+As I saw one of the slides that we discussed in the class, that states
+Linux is hard to use, that leads it has the lowest market share on
+desktops. I just can't agree with that. Why? Because Android is linux
+based too, and I've never seen someone complaining that Android is
+hard to use.
+</p>
+
+<p>
+Then what is the reason? Author of the linux kernel, Linus Torvalds
+explains it here, which I accept that is the real answer. There is
+nothing to write about more then his words.
+</p>
+
+<iframe width="560" height="315"
+        src="http://www.youtube.com/embed/iNnGMBMJKNM" frameborder="0"
+        allowfullscreen></iframe>
+
+<h2> Driver problems? Anyone? </h2>
+<p>
+Again, as we discussed in the lecture, there are some driver issues on
+IO devices on linux. But I guess this is as misleading as the desktop
+market share.
+</p>
+
+<p>
+I agree that there are some issues with IO devices on linux. (Although
+it is getting better day by day) But the Operating System has nothing
+to do about it. It's all about the hardware producers that are really
+being dumb and doesn't care the linux community.
+</p>
+
+<p>
+For example, I got an ASUS laptop which has an nvidia Graphics Card
+which has an optimus technology. I had very difficult times to get it
+working properly, and I'm pretty sure non experienced users can't get
+it working on linux. The following video is about this problem that I
+have.
+</p>
+
+<p>
+However this is changing, When I got my computer, nvidia driver
+page stated that "there is no support for linux for optimus powered
+chips". Last week or so, nvidia announced a new linux driver (319.19)
+which has support for linux. I'm pretty sure this video has forced
+them to do it. (of course there is a steam on linux effect too.)
+</p>
+
+<iframe width="560" height="315"
+        src="http://www.youtube.com/embed/O0r6Pr_mdio" frameborder="0"
+        allowfullscreen></iframe>
+<br /><br />
+
+<p>
+So driver issues are almost going to zero. Linux have a new
+famous Secure Boot problem which MS forces. I love these things,
+because it shows the power of my operating system and how it threatens
+MS. :)
+</p>
+      </article>
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div id="disqus_thread"></div>
+          <noscript>Please enable JavaScript to view the
+            <a href="http://disqus.com/?ref_noscript">
+              comments powered by Disqus.</a></noscript>
+
+          <a href="http://disqus.com" class="dsq-brlink">comments
+            powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+
+
+
+    </div> <!-- /right-container -->
+  </body>
+
+  <script type="text/javascript">
+   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+   var disqus_shortname = 'muhammetcan';
+   // required: replace example with your forum shortname
+
+   /* * * DON'T EDIT BELOW THIS LINE * * */
+   (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+  <!-- bootstrap.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+  <!-- main.js -->
+  <script src="/static/js/main.js"></script>
+</html>

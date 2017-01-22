@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+  <!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It's my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  -->
+  <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- higlight.js styles -->
+    <link href="/static/css/highlight/solarized-dark.css" rel="stylesheet"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- main -->
+    <link href="/static/css/main.css" rel="stylesheet"/>
+  
+  <title>Muhammet Can :: Kernel Based Virtual Machines</title>
+</head>
+  <body>
+    <div id="left-container">
+      <pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It&#39;s my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  --&gt;
+  &lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+    &lt;!-- higlight.js styles --&gt;
+    &lt;link href=&#34;/static/css/highlight/solarized-dark.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;!-- fonts --&gt;
+    &lt;link href=&#39;https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+    &lt;!-- font-awesome --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css&#34;&gt;
+    &lt;!-- animate.css --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css&#34;&gt;
+    &lt;!-- main --&gt;
+    &lt;link href=&#34;/static/css/main.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;title&gt;Muhammet Can :: Kernel Based Virtual Machines&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&#34;left-container&#34;&gt;
+      &lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+      
+    &lt;div id=&#34;profile&#34;&gt;
+      &lt;div class=&#34;container-fluid&#34;&gt;
+        &lt;div class=&#34;row&#34;&gt;
+          &lt;div class=&#34;col-xs-12&#34;&gt;
+
+            &lt;div class=&#34;avatar&#34;&gt;
+              &lt;del&gt;my awesome picture&lt;/del&gt;
+              &lt;img alt=&#34;&#34; src=&#34;/static/img/thuglife.png&#34;/&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;nav&#34;&gt;
+              &lt;ul&gt;
+                &lt;a href=&#34;/&#34;&gt;
+                  &lt;li&gt;home&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;projects&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;about&lt;/li&gt;
+                &lt;/a&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;social&#34;&gt;
+              &lt;a href=&#34;https://tr.linkedin.com/in/muhammetcan&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-linkedin-square l&#34;&gt;&lt;del&gt;linkedin&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://github.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-github-square l&#34;&gt;&lt;del&gt;github&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://twitter.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-twitter-square l&#34;&gt;&lt;del&gt;twitter&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt; &lt;!-- /profile --&gt;
+        &lt;/div&gt; &lt;!-- /col-xs-12 --&gt;
+      &lt;/div&gt; &lt;!-- /row --&gt;
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  
+    &lt;div id=&#34;right-container&#34;&gt;
+      &lt;article class=&#34;animated fadeInRight&#34;&gt;
+        &lt;!-- dont put the source of actual blog here.
+        ugly markup makes it hard to follow. --&gt;
+      &lt;/article&gt;
+
+      &lt;div class=&#34;container&#34;&gt;
+        &lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the
+          &lt;a href=&#34;http://disqus.com/?ref_noscript&#34;&gt;
+            comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+
+        &lt;a href=&#34;http://disqus.com&#34; class=&#34;dsq-brlink&#34;&gt;comments
+          powered by &lt;span class=&#34;logo-disqus&#34;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; &lt;!-- /right-container --&gt;
+  &lt;/body&gt;
+
+  &lt;!-- jquery --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- highlight.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- bootstrap.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- main.js --&gt;
+  &lt;script src=&#34;/static/js/main.js&#34;&gt;&lt;/script&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+      
+    <div id="profile">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="avatar">
+              <del>my awesome picture</del>
+              <img alt="" src="/static/img/thuglife.png"/>
+            </div>
+            <div class="nav">
+              <ul>
+                <a href="/">
+                  <li>home</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>projects</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>about</li>
+                </a>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
+                <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
+              </a>
+              <a href="https://github.com/jeffisabelle" target="_blank">
+                <i class="fa fa-github-square l"><del>github</del></i>
+              </a>
+              <a href="https://twitter.com/jeffisabelle" target="_blank">
+                <i class="fa fa-twitter-square l"><del>twitter</del></i>
+              </a>
+            </div>
+          </div> <!-- /profile -->
+        </div> <!-- /col-xs-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  
+    <div id="right-container">
+      <article class="animated fadeInRight">
+        <h2 class="l">Kernel Based Virtual Machines</h2>
+        <p>
+This is my second blog post for the operating systems course. This
+will be a `reflection paper` for the <a href="http://www.redhat.com/rhecm/rest-rhecm/jcr/repository/collaboration/jcr:system/jcr:versionStorage/5e7884ed7f00000102c317385572f1b1/1/jcr:frozenNode/rh:pdfFile.pdf">Kernel Based Virtual Machine</a>
+paper as homework one.
+</p>
+
+<p>
+I'll structure this blog post by starting with a quick introduction,
+then I'll write what I knew about virtualization before reading the
+paper and after reading the paper. I guess that approach will reflect
+the paper quite well.
+</p>
+
+<p>
+By the way, I'll be using diagrams ( a lot of ) for this post, and I'm
+drawing them on an online diagram creator. If someone found them interesting,
+I'm using <a href="http://gliffy.com">gliffy.com</a> as my diagram
+creator. It has a lot of features; from drawing ER diagrams to
+UML diagrams, uploading your own images to working on some
+diagrams collaboratively. It's free.
+</p>
+
+<h2>
+Introduction
+</h2>
+
+<p>
+The paper we studied present the idea behind the KVM. (Kernel Based
+Virtual Machine) It starts with a quick overview of the earlier
+methodologies (Binary Translation, Paravirtualization & Hardware
+Assisted Virtualization). 
+</p>
+
+<p>
+Then, the papers shows the advantages and
+disadvantages of these methods very technically just before presenting KVM.
+</p>
+
+<h2>
+</i> Before Reading The Paper
+</h2>
+
+<p>
+As an `end user`, I was aware of the virtual machines for 3 to 4 years. I
+was using it when I need to work with Windows machines. (E.g. 2
+semester ago when we were using emu8086 for microprocessors course.)
+</p>
+
+<p>
+But, I had no real knowledge that how important virtualization for
+business. When I was doing my internship at Labris Tech, we were using
+a lot of VM's to easily test our systems & to easily take snapshots so
+if we got a problem on a newly worked code, it was easier to return to
+last working version before losing too much data.
+</p>
+
+<p>
+So, the only methodology I'm aware of was this structure.
+<p>
+
+<img src="/dosya/img/vmpost/vm01.png" class="" alt="" />
+
+<p>
+I have never thought that VM's are so powerful for production
+ environment too.
+</p>
+
+<p>
+Lately, I knew that VM's are used by VPS providers,
+ however I never understood how they handle performance issues that
+ VM's have. This article (and of course, couple of lectures we had
+ last week) helped me to understand what's going on deeply.
+</p>
+
+<h2>
+After Reading the Paper
+</h2>
+
+<p>
+Okay, I can say that I'm shocked when I learned how virtual machines
+actually works. I have always thought that they're working like usual
+applications and I presumed that there need to be Host OS to run a VM.
+</p>
+
+<p>
+Before reading the paper, I didn't know that there are some cpu
+instructions that you can't use as a programmer. I knew that there are
+instructions you can't make but I always thought that OS is
+intercepting the instructions and reject the instructions that are not
+allowed for the programmer. 
+</p>
+
+<p>
+After reading the paper, I learned that
+CPU, itself has different level of privileges for those dangerous
+instructions. So, this is hardware controlled issue. CPU gives full
+power of it to operating systems, however normal programs on the
+operating systems are running with limited permissions. 
+</p>
+
+<p>
+This is the
+one of the biggest problem for the virtual machines as described by
+the paper. If you want to run an operating system, it needs to control
+the cpu without permissions. However this is not possible because VM's
+are ordinary programs.
+</p>
+
+<p>
+To solve this issue, earlier researchers decided to run VM's on
+emulated hardware which talks to another layer ( hypervisor ), and the
+hypervisor itself runs with full privileges. In this way, VM's are
+able to make every cpu call to the emulated hardware, and hypervisor
+will handle those calls to use physical hardware. The structure will
+look like this after this operation.
+</p>
+<img src="/dosya/img/vmpost/vm02.png" class="" alt="" />
+
+<p>
+If you look at the structure, it solves privilege problem gently, but
+if you look at deeper and think about it, it comes with a price.
+Hypervisor handles too much work, it needs to manage the physical cpu
+calls, physical memory management, physical IO devices and so on. 
+</p>
+
+<p>
+This is too much work for a middle layer and it will result as a poor
+performance. (Though as paper stated, Xen-Hypervisors and VMware
+created different solutions for the performance issues but it is still
+lacking of full performance of the physical cpu)
+</p>
+
+<p>
+This is where KVM jumps in. KVM is a linux kernel module, it is
+working just like hypervisor layer but it is way small
+since it is a part of the linux kernel, KVM module doesn't need to
+worry about the IO scheduling or Memory Management. Those are the jobs
+that linux kernel already handling for years. So, the structure of the
+KVM based virtualization will look like this.
+</p>
+
+<img src="/dosya/img/vmpost/vm03.png" class="" alt="" />
+
+<p>
+Technical details lays on the paper, but as a summary, VM's are working
+just like the other linux processes and KVM handles privilege issues.
+</p>
+
+<h2>
+Conclusion
+</h2>
+
+<p>
+The paper changed my point of view of the virtual machines. It seems
+to be an interesting area where too much research going on, I'm glad
+to have a deeper understanding of how VM's works.
+</p>
+
+<h2>
+What's Next?
+</h2>
+
+<p>
+Scribd has bunch of KVM and virtualization documents. The next thing
+would be studying them. I expect to find some time to study them next.
+</p>
+
+<p>
+<a href="http://www.scribd.com/search?query=kvm">
+  Documents About KVM
+</a>
+<br />
+<a href="http://www.scribd.com/search?query=virtualization">
+  Documents About Virtualization
+</a>
+</p>
+      </article>
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div id="disqus_thread"></div>
+          <noscript>Please enable JavaScript to view the
+            <a href="http://disqus.com/?ref_noscript">
+              comments powered by Disqus.</a></noscript>
+
+          <a href="http://disqus.com" class="dsq-brlink">comments
+            powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+
+
+
+    </div> <!-- /right-container -->
+  </body>
+
+  <script type="text/javascript">
+   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+   var disqus_shortname = 'muhammetcan';
+   // required: replace example with your forum shortname
+
+   /* * * DON'T EDIT BELOW THIS LINE * * */
+   (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+  <!-- bootstrap.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+  <!-- main.js -->
+  <script src="/static/js/main.js"></script>
+</html>

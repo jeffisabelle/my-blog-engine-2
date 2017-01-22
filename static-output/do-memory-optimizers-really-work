@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+  <!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It's my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  -->
+  <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- higlight.js styles -->
+    <link href="/static/css/highlight/solarized-dark.css" rel="stylesheet"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- main -->
+    <link href="/static/css/main.css" rel="stylesheet"/>
+  
+  <title>Muhammet Can :: Do Memory Optimizers Really Work?</title>
+</head>
+  <body>
+    <div id="left-container">
+      <pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;!--
+  Hello, This is Muhammet, I am a product oriented from-scratch
+  web-developer. It&#39;s my hobby to think about new ideas and
+  implement prototypes.
+
+  Some of the things I like: Python (Django/Flask),
+  Linux, Emacs, Restful Services, Data Science (R/Python),
+  Html, SASS, Javascript (React/Jquery) and Sketch.
+
+  PS. Yes you are reading the source markup of the page you are
+  looking at. If you want to learn the details look at the repo
+  @ https://github.com/jeffisabelle/my-blog-engine-2
+  --&gt;
+  &lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+    &lt;!-- higlight.js styles --&gt;
+    &lt;link href=&#34;/static/css/highlight/solarized-dark.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;!-- fonts --&gt;
+    &lt;link href=&#39;https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+    &lt;!-- font-awesome --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css&#34;&gt;
+    &lt;!-- animate.css --&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css&#34;&gt;
+    &lt;!-- main --&gt;
+    &lt;link href=&#34;/static/css/main.css&#34; rel=&#34;stylesheet&#34;/&gt;
+    &lt;title&gt;Muhammet Can :: Do Memory Optimizers Really Work?&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&#34;left-container&#34;&gt;
+      &lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+      
+    &lt;div id=&#34;profile&#34;&gt;
+      &lt;div class=&#34;container-fluid&#34;&gt;
+        &lt;div class=&#34;row&#34;&gt;
+          &lt;div class=&#34;col-xs-12&#34;&gt;
+
+            &lt;div class=&#34;avatar&#34;&gt;
+              &lt;del&gt;my awesome picture&lt;/del&gt;
+              &lt;img alt=&#34;&#34; src=&#34;/static/img/thuglife.png&#34;/&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;nav&#34;&gt;
+              &lt;ul&gt;
+                &lt;a href=&#34;/&#34;&gt;
+                  &lt;li&gt;home&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;projects&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
+                  &lt;li&gt;about&lt;/li&gt;
+                &lt;/a&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;social&#34;&gt;
+              &lt;a href=&#34;https://tr.linkedin.com/in/muhammetcan&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-linkedin-square l&#34;&gt;&lt;del&gt;linkedin&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://github.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-github-square l&#34;&gt;&lt;del&gt;github&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;a href=&#34;https://twitter.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
+                &lt;i class=&#34;fa fa-twitter-square l&#34;&gt;&lt;del&gt;twitter&lt;/del&gt;&lt;/i&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt; &lt;!-- /profile --&gt;
+        &lt;/div&gt; &lt;!-- /col-xs-12 --&gt;
+      &lt;/div&gt; &lt;!-- /row --&gt;
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  
+    &lt;div id=&#34;right-container&#34;&gt;
+      &lt;article class=&#34;animated fadeInRight&#34;&gt;
+        &lt;!-- dont put the source of actual blog here.
+        ugly markup makes it hard to follow. --&gt;
+      &lt;/article&gt;
+
+      &lt;div class=&#34;container&#34;&gt;
+        &lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the
+          &lt;a href=&#34;http://disqus.com/?ref_noscript&#34;&gt;
+            comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+
+        &lt;a href=&#34;http://disqus.com&#34; class=&#34;dsq-brlink&#34;&gt;comments
+          powered by &lt;span class=&#34;logo-disqus&#34;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; &lt;!-- /right-container --&gt;
+  &lt;/body&gt;
+
+  &lt;!-- jquery --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- highlight.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- bootstrap.js --&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+  &lt;!-- main.js --&gt;
+  &lt;script src=&#34;/static/js/main.js&#34;&gt;&lt;/script&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+      
+    <div id="profile">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="avatar">
+              <del>my awesome picture</del>
+              <img alt="" src="/static/img/thuglife.png"/>
+            </div>
+            <div class="nav">
+              <ul>
+                <a href="/">
+                  <li>home</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>projects</li>
+                </a>
+                <a href="#"> <!-- implement later -->
+                  <li>about</li>
+                </a>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
+                <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
+              </a>
+              <a href="https://github.com/jeffisabelle" target="_blank">
+                <i class="fa fa-github-square l"><del>github</del></i>
+              </a>
+              <a href="https://twitter.com/jeffisabelle" target="_blank">
+                <i class="fa fa-twitter-square l"><del>twitter</del></i>
+              </a>
+            </div>
+          </div> <!-- /profile -->
+        </div> <!-- /col-xs-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  
+    <div id="right-container">
+      <article class="animated fadeInRight">
+        <h2 class="l">Do Memory Optimizers Really Work?</h2>
+        <p>
+This blog post belongs to my Operating Systems course and it
+will be about the memory management on operating systems and ram
+optimizers.
+</p>
+
+<p>
+The homework consists of a one question. Which is about memory
+management. The question is; 
+</p>
+
+<p class="sc">
+` Your manager tells you that there are some software which claims that
+they optimize the memory. On the other hand, there are many people
+says that this is a hooey and it actually decrease the performance of
+the system. Make a research, and briefly explain me which is correct.`
+</p>
+
+<p>
+I've done some google search and I guess I did end up with a correct
+answer. Here is the things about RAM optimizers and if they do a good
+job or not.
+</p>
+
+<h2>
+  My Response to the Manager
+</h2>
+
+<p>
+Okay, I've looked at several memory optimizer. And the thing is, well,
+they increase the available memory. But, what does it mean to be
+available? Is it a good thing? How they increase the available memory?
+</p>
+
+<p>
+Available memory means, any program that are not yet in the memory can
+be moved to the memory when the program desire. So, it seems like increasing
+available memory is a good thing, right? NO.
+</p>
+
+<p>
+The problem is not about the available memory but how these optimizer
+thing increase it. They actually remove cache from memory to increase
+the available memory. But, hey, don't we know that caching is the one of
+the most beatiful thing on computer science. We use caching on almost
+every piece of software (web caches, database systems etc.) and
+hardware memory caches. (l1, l2 etc.) 
+</p>
+
+<p>
+Operating Systems do cache
+memory accesses for a reason. (a good one) and should never ever
+removed from the memory if there is still available memory. These
+optimizers actually do a very, very bad for good performance. They
+want to use a lot of memory and operating system gives them what they
+want by removing the caches, after that they release the allocated
+memory, therefor we see an increase on available memory. But, we lost
+any cache stored in the memory for nothing.
+</p>
+
+<p>
+I have found a video which explains this issue with an example
+optimizer from here; (Title: RAM Tweaker)
+<a href="http://www.letmebreakitdown.com/Tut_vid/Tut_vid.aspx">
+http://www.letmebreakitdown.com/Tut_vid/Tut_vid.aspx</a>
+</p>
+
+<p>
+It was not working on the browser itself, (I use the most recent
+firefox) so I've downloaded it and uploaded it to youtube for easy
+access.
+</p>
+
+<iframe width="560" height="315"
+        src="http://www.youtube.com/embed/qBtYIgWIcIk" frameborder="0"
+        allowfullscreen></iframe>
+
+      </article>
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div id="disqus_thread"></div>
+          <noscript>Please enable JavaScript to view the
+            <a href="http://disqus.com/?ref_noscript">
+              comments powered by Disqus.</a></noscript>
+
+          <a href="http://disqus.com" class="dsq-brlink">comments
+            powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+
+
+
+    </div> <!-- /right-container -->
+  </body>
+
+  <script type="text/javascript">
+   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+   var disqus_shortname = 'muhammetcan';
+   // required: replace example with your forum shortname
+
+   /* * * DON'T EDIT BELOW THIS LINE * * */
+   (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+  <!-- bootstrap.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+  <!-- main.js -->
+  <script src="/static/js/main.js"></script>
+</html>
