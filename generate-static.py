@@ -18,6 +18,7 @@ def get_html_from_path(url):
     return the html of the page as text
     """
     r = requests.get(root_address + url)
+    print("parsing url: " + (root_address + url))
     return r.text
 
 
