@@ -27,7 +27,7 @@
     <!-- main -->
     <link href="/static/css/main.css" rel="stylesheet"/>
   
-  <title>Muhammet Can :: Cool Domains with A Little Bit Hack</title>
+  <title>Muhammet Can :: Cool Domains with a Little Bit Hack</title>
 </head>
   <body>
     <div id="left-container">
@@ -58,7 +58,7 @@
     &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css&#34;&gt;
     &lt;!-- main --&gt;
     &lt;link href=&#34;/static/css/main.css&#34; rel=&#34;stylesheet&#34;/&gt;
-    &lt;title&gt;Muhammet Can :: Cool Domains with A Little Bit Hack&lt;/title&gt;
+    &lt;title&gt;Muhammet Can :: Cool Domains with a Little Bit Hack&lt;/title&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div id=&#34;left-container&#34;&gt;
@@ -172,47 +172,21 @@
   
     <div id="right-container">
       <article class="animated fadeInRight">
-        <h2 class="l">Cool Domains with A Little Bit Hack</h2>
-        <p>
-  I hate domain business. I honestly do. Every single time I come up
-  with an idea, I instantly look for a domain that is catchy enough
-  and suitable for the project. But it usually end up already taken or 
-  listed as premium for 1000$. I hate those premium domains. 
-</p>
+        <h2 class="l">Cool Domains with a Little Bit Hack</h2>
+        <p>I hate domain business. I honestly do. Every single time I come up with an idea, I instantly look for a domain that is catchy enough and suitable for the project. But it usually end up already taken or listed as premium for 1000$. I hate those premium domains.</p>
 
-<p>
-  Domains like <span class="sc">getmyapp.com</span>, <span class="sc">usethis.com</span> or <span class="sc">thefacebook.com</span> seems
-  weird to me too. 
-</p>
+<p>Domains like getmyapp.com, usethis.com or thefacebook.com seems weird to me too.</p>
 
-<p>
-You want advice? <br />
-<span class="sc">drop the 'the'. just facebook. it's cleaner.</span>
-</p>
+<p>You want advice? <br />
+drop the 'the'. just facebook. it's cleaner.</p>
 
-<p>
-  Well, dropping THE is not cheap either. But dropping .COM
-  is a more viable option today. There are bunch of ccTLDs to choose
-  from. However it is not easy to check for bunch of registrar
-  if the domain is available. Forget checking, it is even difficult to
-  think a meaningful domain. 
-</p>
+<p>Well, dropping THE is not cheap either. But dropping .COM is a more viable option today. There are bunch of ccTLDs to choose from. However it is not easy to check for bunch of registrar if the domain is available. Forget checking, it is even difficult to think a meaningful domain.</p>
 
-<p>
-  So, I tried to find a way to look for domains programmatically.
-  Turns out it is just 20 lines of python code, with the power
-  of <a href="http://aspell.net/">gnu/aspell</a>
-  and some shell commands. 
-</p>
+<p>So, I tried to find a way to look for domains programmatically. Turns out it is just 20 lines of python code, with the power of gnu/aspell and some shell commands.</p>
 
-<p>
-  Here is the script that tries to find meaningful domains that has
-  3-7 length &amp; ends with .ly
-</p>
+<p>Here is the script that tries to find meaningful domains that has 3-7 length &amp; ends with .ly</p>
 
-<pre>
-  <code>
-import shlex
+<pre><code>import shlex
 from subprocess import Popen, PIPE
 
 extension = "ly"
@@ -231,43 +205,29 @@ for domain in output.split("\n"):
     p3 = Popen(["whois", domain], stdout=PIPE)
 
     if "not found" in str(p3.communicate()[0]).lower():
-        print "the domain " + domain + " seems available"    
-  </code>
-</pre>
+        print "the domain " + domain + " seems available"
+</code></pre>
 
-<p>This code will print over hundreds of possible domains that
-  actually has a meaning in the dictionary. At first sight, I can see
-  the available domains like awful.ly or evil.ly</p>
+<p>This code will print over hundreds of possible domains that actually has a meaning in the dictionary. At first sight, I can see the available domains like awful.ly or evil.ly</p>
 
-<p>
-  You can force aspell to use another language if you want. Just pass
-  appropriate language prefix after -l parameter. 
-</p>
+<p>You can force aspell to use another language if you want. Just pass appropriate language prefix after -l parameter.</p>
 
-<p>
-  It is also possible that, there might be registered domains which
-  returns `not found` to whois requests. But I couldn't find a better
-  way to check if a domain is registered. Please leave me a comment if
-  you have better idea!
-</p>
+<p>It is also possible that, there might be registered domains which returns not found to whois requests. But I couldn't find a better way to check if a domain is registered. Please leave me a comment if you have better idea!</p>
 
 <hr />
 
-<p>
- as Pritam Baral commented, the shell version is way simpler. 
-<pre>
-  <code>
-for domain in $(aspell -l en dump master | egrep '^\w{3,5}ly$')
+<p>as Pritam Baral commented, the shell version is way simpler.</p>
+
+<pre><code>for domain in $(aspell -l en dump master | egrep '^\w{3,5}ly$')
 do
     domain=$(echo $domain | head -c-3).ly
-    if whois $domain &>/dev/null
+    if whois $domain &amp;&gt;/dev/null
     then
         echo "the domain $domain seems available"
     fi
 done
-  </code>
-</pre>
-<p>
+</code></pre>
+
       </article>
 
       <div class="row">
