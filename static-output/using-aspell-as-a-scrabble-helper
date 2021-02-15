@@ -26,154 +26,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
     <!-- main -->
     <link href="/static/css/main.css" rel="stylesheet"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35386653-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-35386653-1');
+    </script>
+
   
   <title>Muhammet Can :: Using Aspell as a Scrabble Helper</title>
 </head>
   <body>
-    <div id="left-container">
-      <pre><code>&lt;!doctype html&gt;
-&lt;html&gt;
-  &lt;!--
-  Hello, This is Muhammet, I am a product oriented from-scratch
-  web-developer. It&#39;s my hobby to think about new ideas and
-  implement prototypes.
 
-  Some of the things I like: Python (Django/Flask),
-  Linux, Emacs, Restful Services, Data Science (R/Python),
-  Html, SASS, Javascript (React/Jquery) and Sketch.
-
-  PS. Yes you are reading the source markup of the page you are
-  looking at. If you want to learn the details look at the repo
-  @ https://github.com/jeffisabelle/my-blog-engine-2
-  --&gt;
-  &lt;head&gt;
-    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
-    &lt;!-- higlight.js styles --&gt;
-    &lt;link href=&#34;/static/css/highlight/solarized-dark.css&#34; rel=&#34;stylesheet&#34;/&gt;
-    &lt;!-- fonts --&gt;
-    &lt;link href=&#39;https://fonts.googleapis.com/css?family=Actor|Advent+Pro:400,300,500,600,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
-    &lt;!-- font-awesome --&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css&#34;&gt;
-    &lt;!-- animate.css --&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css&#34;&gt;
-    &lt;!-- main --&gt;
-    &lt;link href=&#34;/static/css/main.css&#34; rel=&#34;stylesheet&#34;/&gt;
-    &lt;title&gt;Muhammet Can :: Using Aspell as a Scrabble Helper&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div id=&#34;left-container&#34;&gt;
-      &lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-      
-    &lt;div id=&#34;profile&#34;&gt;
-      &lt;div class=&#34;container-fluid&#34;&gt;
-        &lt;div class=&#34;row&#34;&gt;
-          &lt;div class=&#34;col-xs-12&#34;&gt;
-
-            &lt;div class=&#34;avatar&#34;&gt;
-              &lt;del&gt;my awesome picture&lt;/del&gt;
-              &lt;img alt=&#34;&#34; src=&#34;/static/img/thuglife.png&#34;/&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;nav&#34;&gt;
-              &lt;ul&gt;
-                &lt;a href=&#34;/&#34;&gt;
-                  &lt;li&gt;home&lt;/li&gt;
-                &lt;/a&gt;
-                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
-                  &lt;li&gt;projects&lt;/li&gt;
-                &lt;/a&gt;
-                &lt;a href=&#34;#&#34;&gt; &lt;!-- implement later --&gt;
-                  &lt;li&gt;about&lt;/li&gt;
-                &lt;/a&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;social&#34;&gt;
-              &lt;a href=&#34;https://tr.linkedin.com/in/muhammetcan&#34; target=&#34;_blank&#34;&gt;
-                &lt;i class=&#34;fa fa-linkedin-square l&#34;&gt;&lt;del&gt;linkedin&lt;/del&gt;&lt;/i&gt;
-              &lt;/a&gt;
-              &lt;a href=&#34;https://github.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
-                &lt;i class=&#34;fa fa-github-square l&#34;&gt;&lt;del&gt;github&lt;/del&gt;&lt;/i&gt;
-              &lt;/a&gt;
-              &lt;a href=&#34;https://twitter.com/jeffisabelle&#34; target=&#34;_blank&#34;&gt;
-                &lt;i class=&#34;fa fa-twitter-square l&#34;&gt;&lt;del&gt;twitter&lt;/del&gt;&lt;/i&gt;
-              &lt;/a&gt;
-            &lt;/div&gt;
-          &lt;/div&gt; &lt;!-- /profile --&gt;
-        &lt;/div&gt; &lt;!-- /col-xs-12 --&gt;
-      &lt;/div&gt; &lt;!-- /row --&gt;
-    &lt;/div&gt; &lt;!-- /container --&gt;
-  
-    &lt;div id=&#34;right-container&#34;&gt;
-      &lt;article class=&#34;animated fadeInRight&#34;&gt;
-        &lt;!-- dont put the source of actual blog here.
-        ugly markup makes it hard to follow. --&gt;
-      &lt;/article&gt;
-
-      &lt;div class=&#34;container&#34;&gt;
-        &lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
-        &lt;noscript&gt;Please enable JavaScript to view the
-          &lt;a href=&#34;http://disqus.com/?ref_noscript&#34;&gt;
-            comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-
-        &lt;a href=&#34;http://disqus.com&#34; class=&#34;dsq-brlink&#34;&gt;comments
-          powered by &lt;span class=&#34;logo-disqus&#34;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt; &lt;!-- /right-container --&gt;
-  &lt;/body&gt;
-
-  &lt;!-- jquery --&gt;
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js&#34;&gt;&lt;/script&gt;
-  &lt;!-- highlight.js --&gt;
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
-  &lt;!-- bootstrap.js --&gt;
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
-  &lt;!-- main.js --&gt;
-  &lt;script src=&#34;/static/js/main.js&#34;&gt;&lt;/script&gt;
-&lt;/html&gt;</code></pre>
+    <div class="header">
+      <div class="nav">
+        <ul>
+          <li><a href="/">homepage</a></li>
+          <li><a href="/">projects</a></li>
+          <li><a href="/">about</a></li>
+        </ul>
+      </div>
     </div>
-      
-    <div id="profile">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
 
-            <div class="avatar">
-              <del>my awesome picture</del>
-              <img alt="" src="/static/img/thuglife.png"/>
-            </div>
-            <div class="nav">
-              <ul>
-                <a href="/">
-                  <li>home</li>
-                </a>
-                <a href="#"> <!-- implement later -->
-                  <li>projects</li>
-                </a>
-                <a href="#"> <!-- implement later -->
-                  <li>about</li>
-                </a>
-              </ul>
-            </div>
-            <div class="social">
-              <a href="https://tr.linkedin.com/in/muhammetcan" target="_blank">
-                <i class="fa fa-linkedin-square l"><del>linkedin</del></i>
-              </a>
-              <a href="https://github.com/jeffisabelle" target="_blank">
-                <i class="fa fa-github-square l"><del>github</del></i>
-              </a>
-              <a href="https://twitter.com/jeffisabelle" target="_blank">
-                <i class="fa fa-twitter-square l"><del>twitter</del></i>
-              </a>
-            </div>
-          </div> <!-- /profile -->
-        </div> <!-- /col-xs-12 -->
-      </div> <!-- /row -->
-    </div> <!-- /container -->
-  
-    <div id="right-container">
-      <article class="animated fadeInRight">
-        <h2 class="l">Using Aspell as a Scrabble Helper</h2>
-        <p>This semester I'm taking Artificial Intelligence course at college. Last semester, when I was taking Data Mining, I did learn some of the classification and clustering Machine Learning algorithms, so I wanted to choose a project for AI class that is both challenging &amp; pragmatical and does not contains ML in it.</p>
+    <div class="container">
+      <div class="post-detail">
+
+
+        <article>
+          <h2 class="l">Using Aspell as a Scrabble Helper</h2>
+          <p>This semester I'm taking Artificial Intelligence course at college. Last semester, when I was taking Data Mining, I did learn some of the classification and clustering Machine Learning algorithms, so I wanted to choose a project for AI class that is both challenging &amp; pragmatical and does not contains ML in it.</p>
 
 <p>This made me think about algorithmic solutions of scrabble and I decided to take it as a course project and build an Artificially Intelligent scrabble player.</p>
 
@@ -292,39 +177,12 @@ koli
 
 <p>I'll work on it when I have time, and make a new blog posts about the project I will be working for the course. This is it, for now. :)</p>
 
-      </article>
+        </article>
 
-      <div class="row">
-        <div class="col-xs-12">
+      </div><!-- /post-detail -->
 
-          <div id="disqus_thread"></div>
-          <noscript>Please enable JavaScript to view the
-            <a href="http://disqus.com/?ref_noscript">
-              comments powered by Disqus.</a></noscript>
-
-          <a href="http://disqus.com" class="dsq-brlink">comments
-            powered by <span class="logo-disqus">Disqus</span></a>
-        </div>
-      </div>
-
-
-
-    </div> <!-- /right-container -->
+    </div> <!-- /container -->
   </body>
-
-  <script type="text/javascript">
-   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-   var disqus_shortname = 'muhammetcan';
-   // required: replace example with your forum shortname
-
-   /* * * DON'T EDIT BELOW THIS LINE * * */
-   (function() {
-     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-     dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-   })();
-  </script>
-
 
 
   <!-- jquery -->

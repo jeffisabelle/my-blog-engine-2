@@ -21,8 +21,9 @@ def index():
 @app.route('/<string:post_slug>/')
 def post(post_slug):
     p = Post.one(post_slug)
-    source = render_template('detail-no-content.html', post=p)
-    return render_template('detail.html', source=source, post=p)
+    # source = render_template('detail-no-content.html', post=p)
+    # return render_template('detail.html', source=source, post=p)
+    return render_template('detail.html', post=p)
 
 
 if __name__ == '__main__':

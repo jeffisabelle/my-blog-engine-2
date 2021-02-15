@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+appnope = "==0.1.0"
+beautifulsoup4 = "==4.5.3"
+bs4 = "==0.0.1"
+decorator = "==4.0.4"
+ecdsa = "==0.13"
+fabric = "==1.10.2"
+itsdangerous = "==0.24"
+lxml = "==3.5.0"
+"path.py" = "==8.1.2"
+pexpect = "==4.0.1"
+pickleshare = "==0.5"
+ptyprocess = "==0.5"
+requests = "==2.12.5"
+simplegeneric = "==0.8.1"
+traitlets = "==4.0.0"
+markdown2 = "==2.3.2"
+BeautifulSoup = "==3.2.1"
+Flask = "==0.10.1"
+Jinja2 = "==2.8"
+MarkupSafe = "==0.23"
+Werkzeug = "==0.11.2"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
